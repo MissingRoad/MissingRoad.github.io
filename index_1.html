@@ -1,101 +1,136 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>IGC Tutoring Center</title>
-	<link href="common/samples.css" rel="stylesheet" />	
-	<link href="themes/light.css" rel="stylesheet" />	
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>About</title>
+<!-- 
+Magazee Template 
+http://www.templatemo.com/tm-514-magazee
+-->
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                        <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/templatemo-style.css">                                     <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true;
+
+    if(navigator.userAgent.indexOf('MSIE')!==-1
+      || navigator.appVersion.indexOf('Trident/') > 0){
+        /* Microsoft Internet Explorer detected in. */
+        alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+        renderPage = false;
+    }
+  </script>
+
 </head>
-   <style>
-/* Style the body */
-body {
-  font-family: Arial;
-  margin: 0;
-}
 
-/* Header/Logo Title */
-.header {
-  padding: 20px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-}
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
 
-/* Page Content */
-.content {padding:20px;}
+ <div class="container">
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+  <!-- 1st section -->
+  <section class="row tm-section">
+   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+    <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
+      <h1 class="tm-text-color-white tm-site-name">About the site</h1>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5">
+      <q class="tm-quote tm-text-color-gray">Hi this is Taejun Ho.</q>
+    </div>
+  </div>
+</section>
 
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
-}
-
-.navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.main {
-  padding: 16px;
-  margin-bottom: 30px;
-}
-
-
-
-</style>
+<!-- 2nd section -->
+<section class="row tm-section tm-col-md-reverse">
+ <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+  <div class="tm-flex-center p-5">
+    <div class="tm-md-flex-center">
+      <h2 class="tm-text-color-primary mb-4">Brief Introduction to the website</h2>
+      <p class="mb-4">The website is designed to help the tutoring application process for students in IGC to use the Tutoring Center be easier and more accessible, as currently the process is too much</p>
     
-    
-<body id = "Test">
-    
-    <style>
-        .container { 
-  height:900px;
-  position: relative;
-  border: 3px solid green; 
-  padding-right: 100px ;
-}
-        #Test {
-           min-height: 800px;
-            }
-    </style>
-    <div class="header">
-  <h1>IGC Tutoring Center</h1>
- 
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+  <div class="tm-flex-center p-5 tm-bg-color-primary">
+    <div class="tm-max-w-400 tm-flex-center tm-flex-col">
+      <img src="img/postimg.jpg" alt="Image" class="rounded-circle mb-4">
+      <p class="tm-text-color-white small tm-font-thin mb-0">I am a computer science major at SUNY Korea</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- 3rd Section -->
+<section class="row tm-section tm-mb-30">
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
+    <img src="img/testim15.jpg" alt="Image" class="img-fluid">
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5">
+      <div class="tm-flex-center tm-flex-col">
+        <h2 class="tm-align-left">The Solution</h2>
+        <p>The website has made the application process of the tutoring more accessible mainly by having the tutors and the tutees have direct access to eachothers schedule, rather than relying on a professor to do so. </p>
   
-</div>
-    
-    <div class="container">
-<div style = "padding-left:300px;"><h2>Your Tutoring Schedule</h2></div>
-    <div style="position: absolute; width: 100%; height: 100%;">
-			<div id="calendar" style="padding-left: 50px;height: 70%; width: 50%; "></div>
-		</div>
+      </div>
+    </div>
+  </div>
+</section>
 
- <div style = "padding-left:1000px; padding-bottom:  10000px"><img style ="" src="sub_content_img_12 (3).gif" alt="Trulli" width="400" height="400"></div>
-	<script src="MindFusion.Scheduling.js" type="text/javascript"></script>
-	<script src="GoogleSchedule.js" type="text/javascript"></script>
-	<script src="TimeForm.js" type="text/javascript"></script>
-        </div>    
-        <div class="navbar">
-  <a href="newhtml.html" class="active">Apply For New Tutor</a>
- <a href="index_1.html" class="active">About the website</a>
+<!-- 4th Section -->
+<section class="row tm-section tm-mb-30">
+ <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+  <div class="tm-flex-center pl-5 pr-5 pt-5 pb-5">
+    <div class="tm-md-flex-center">
+     <h2 class="mb-4 tm-text-color-primary">Closing Marks</h2>
+     <p>I hope students will have an easier time using the website. There may be more things to add to the website, so any other advice will be welcome</p>
+
+     <a href="https://missingroad.github.io/Schedule.html" class="btn btn-primary float-lg-right tm-md-align-center">Go back up</a>
+     <a href="https://missingroad.github.io/Schedule.html" class="myButton">Go to Website</a>   
+       <a href="https://missingroad.github.io/Schedule.html" class="myButton">Go to Website</a> 
+   </div>
+ </div>
 </div>
-      
+<div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-xl-right text-md-center text-center mt-5 mt-lg-0 pr-lg-0">
+ <img src="img/image-02.jpg" alt="Image" class="img-fluid">
+</div>
+</section>
+
+
+<!-- Footer -->
+<div class="row">
+  <div class="col-lg-12">
+    <p class="text-center small tm-copyright-text mb-0"> &copy; <span class="tm-current-year">2020</span> Taejun Ho</p>
+  </div>
+</div>
+</div>
+<!-- load JS -->
+<script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->
+<script>
+
+  /* DOM is ready
+  ------------------------------------------------*/
+  $(function(){
+
+    if(renderPage) {
+      $('body').addClass('loaded');
+    }
+
+    $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+  });
+
+</script>
+
 </body>
-    
+</html>
